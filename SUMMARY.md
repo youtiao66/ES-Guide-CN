@@ -4,4 +4,5 @@
 
 ## Query DSL
 
-* [Term-level queries](14-query-dsl/term-level-queries.md)
+* Term-level queries
+  * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
