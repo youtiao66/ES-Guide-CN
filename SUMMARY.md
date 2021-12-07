@@ -2,6 +2,8 @@
 
 * [开始使用](README.md)
 
+## [设置](04-setup/index.md)
+
 ## Query DSL
 
 * Term-level 词级查询
