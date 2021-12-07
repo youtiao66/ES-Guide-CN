@@ -32,23 +32,18 @@ GET /_search
 
 (必选, `object`) 想要搜索的字段
 
-### <field> 参数
+### `<field>` 参数
 
-`value`
+- `value` (必须, `string`) <br>
+想要精确查找的字段。必须精确匹配该字段值，包括空白符和大小写。
 
-(必须, `string`) 想要精确查找的字段。必须精确匹配该字段值，包括空白符和大小写。
-
-`boost`
-
-(可选, `float`) 用浮点数去指定查询的相关性评分。默认值 `1.0`
-
-可以使用 `boost` 参数去调整包含两个或者更多查询的评分
-
+- `boost` (可选, `float`) <br>
+用浮点数去指定查询的相关性评分。默认值 `1.0`. <br>
+可以使用 `boost` 参数去调整包含两个或者更多查询的评分. <br>
 相对于默认值 `1.0`。`0-1.0` 之间降低评分。大于 `1.0` 提高评分
 
-`case_insensitive` [7.10.0]
-
-(可选, `Boolean`) 通过设置该值为 `true` 实现对指定字段值大小写不敏感匹配。默认值为 `false` 代表大小写敏感，同时取决于实际字段的映射关系
+- `case_insensitive` [7.10.0] (可选, `Boolean`) <br>
+通过设置该值为 `true` 实现对指定字段值大小写不敏感匹配。默认值为 `false` 代表大小写敏感，同时取决于实际字段的映射关系
 
 ## 说明
 
@@ -66,7 +61,7 @@ GET /_search
 
 为了感受搜索结果的区别，请尝试一下示例：
 
-1. 通过 `full_text` 创建一个 `text` 字段索引
+**1. 通过 `full_text` 创建一个 `text` 字段索引**
 
 ```js
 PUT my-index-000001
@@ -79,7 +74,7 @@ PUT my-index-000001
 }
 ```
 
-2. 添加一个 `full_text` 字段值为 `Quick Brown Foxes!` 的文档
+**2. 添加一个 `full_text` 字段值为 `Quick Brown Foxes!` 的文档**
 
 ```js
 PUT my-index-000001/_doc/1
@@ -90,7 +85,7 @@ PUT my-index-000001/_doc/1
 
 因为 `full_text` 是 `text` 字段，Elasticsearch 在分析的过程中把 `Quick Brown Foxes!` 转换为 `[quick, brown, fox]`
 
-3. 用 `term` 查询去搜索 `full_text` 字段的 `Quick Brown Foxes!`。加上 `pretty` 参数去美化返回值。
+**3. 用 `term` 查询去搜索 `full_text` 字段的 `Quick Brown Foxes!`。加上 `pretty` 参数去美化返回值。**
 
 ```js
 GET my-index-000001/_search?pretty
@@ -105,7 +100,7 @@ GET my-index-000001/_search?pretty
 
 因为 `full_text` 字段不再包含精确值 `Quick Brown Foxes!`, `term` 搜索结果为空
 
-4. 用 `match` 去搜索 `full_text` 字段的 `Quick Brown Foxes!` 值。
+**4. 用 `match` 去搜索 `full_text` 字段的 `Quick Brown Foxes!` 值。**
 
 ```js
 GET my-index-000001/_search?pretty
