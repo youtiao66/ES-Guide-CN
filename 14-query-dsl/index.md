@@ -8,7 +8,7 @@ Elasticsearch 提供完整的基于 JSON 领用专用语法 (DSL - Domain Specif
 - **复合查询** <br>
 复合查询用于包裹子查询和复合查询，并以逻辑方式(例如`bool`, `dis_max`)或者改变默认特性的方式(例如`constant_score`)组合多个查询
 
-查询语句的特性依赖于其使用方式，参考 [query context or filter context "todo:fanyi"](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-filter-context.html)
+查询语句的特性依赖于其使用方式，参考 [query context or filter context](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-filter-context.html)
 
 ## 允许低效查询
 
