@@ -6,7 +6,7 @@
 * 安装
   * [Windows 通过`.zip`安装](04-setup/01-install-elasticsearch/zip-windows.md)
 
-## 查询语法
+## [查询语法](query-dsl.md)
 * [概览](14-query-dsl/index.md)
 * [词级查询](14-query-dsl/term-level-queries.md)
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
