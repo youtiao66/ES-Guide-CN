@@ -2,7 +2,11 @@
 
 * [开始使用](README.md)
 
-## [设置](04-setup/index.md)
+## 设置
+
+* [概览](04-setup/index.md)
+* 安装
+  * [Windows 通过`.zip`安装](04-setup/01-install-elasticsearch/zip-windows.md)
 
 ## Query DSL
 
