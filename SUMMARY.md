@@ -8,6 +8,6 @@
 
 ## 查询语法
 * [概览](14-query-dsl/index.md)
-* [词级查询](14-query-dsl/10-term-level-queries/index.md)
+* [词级查询](14-query-dsl/term-level-queries.md)
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
   * [Term 精确查询](14-query-dsl/10-term-level-queries/term.md)
