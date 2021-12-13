@@ -7,7 +7,8 @@
   * [Windows 通过`.zip`安装](04-setup/01-install-elasticsearch/zip-windows.md)
 
 ## Query DSL
-* [查询语法](14-query-dsl/index.md)
+* [查询表达式](14-query-dsl/index.md)
 * [词级查询](14-query-dsl/term-level-queries.md)
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
+  * [Term 精确查询](14-query-dsl/10-term-level-queries/term.md)
   * [Term 精确查询](14-query-dsl/10-term-level-queries/term.md)

@@ -1,6 +1,6 @@
-# Query DSL 查询语法
+# Query DSL 查询表达式
 
-Elasticsearch 提供完整的基于 JSON 领用专用语法 (DSL - Domain Specific Language) 进行查询。查询语法作为一种抽象语法树 (AST - Abstract Syntax Tree) 由两种类型的子句组成：
+Elasticsearch 提供完整的基于 JSON 领用专用语法 (DSL - Domain Specific Language) 进行查询。查询表达式作为一种抽象语法树 (AST - Abstract Syntax Tree) 由两种类型的子句组成：
 
 - **子查询** <br>
 子查询搜索特定字段的特定值，例如`match`, `term`或者`range`. 这些查询可以单独使用
