@@ -49,10 +49,10 @@ GET /_search
 查询中需要被转换为`date`值的日期格式 <br>
 默认情况下，使用字段映射中提供的 [date `format`](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/mapping-date-format.html). 该值可以覆盖映射的格式 <br>
 可用语法请参考 [`format`](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/mapping-date-format.html) <br>
-***⚠️警告：*** 如果格式或者日期值不完整，范围查询将使用默认值替换缺失的部分。具体参考 [Missing date components](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-dsl-range-query.html#missing-date-components)
+***⚠️警告：*** 如果格式或者日期值不完整，范围查询将使用默认值替换缺省的部分。具体参考 [缺省日期部分](https://youtiao66.gitbook.io/es-guide-cn/query-dsl/term-level-queries/range#que-sheng-ri-qi-bu-fen)
 
 - `relation` (可选, `string`) <br>
-表明范围查询是如何匹配`range`字段的值。有效值如下： <br>
+表明范围查询是如何匹配`range`字段的值。有效值如下：
   * `INTERSECTS` (默认值) <br>
   匹配查询范围的交集
   * `CONTAINS` <br>
@@ -63,8 +63,8 @@ GET /_search
 - `time_zone` (可选, `string`) <br>
 用于转换日期值 [`UTC`偏移量](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets) 或者 [`IANA`时区](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) <br>
 有效值包括 ISO 8601 UTC 偏移量，例如`+01:00`或者`-08:00`. 以及`IANA`时区，例如`America/Los_Angeles` <br>
-使用时区参数查询的示例请参考 todo: <br>
-***ℹ️提示：*** 时区参数不会影响**不会**影响`now`函数的日期值，`now`函数总是以当前系统时间中 UTC 为准。 <br>
+使用时区参数查询的示例请参考 [使用时区参数示例](https://youtiao66.gitbook.io/es-guide-cn/query-dsl/term-level-queries/range#shi-yong-shi-qu-can-shu-shi-li) <br>
+***ℹ️提示：*** 时区参数不会影响**不会**影响`now`的计算结果，`now`总是以当前系统时间中 UTC 为准。 <br>
 然而，时区参数是通过`now`和 [date math rounding](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/common-options.html#date-math) 计算结果转换日期。例如时区参数将会转换`now/d`的值
 
 - `boost` (可选, `float`) <br>
@@ -75,7 +75,7 @@ GET /_search
 
 
 ## 说明
-### 对`text`字段和`keyword`字段使用范围查询
+### 对`text`和`keyword`字段使用
 如果`search.allow_expensive_queries`设置为`false`, 对`text`字段和`keyword`字段使用的范围查询将不被执行
 
 ### 对`date`字段使用范围查询
