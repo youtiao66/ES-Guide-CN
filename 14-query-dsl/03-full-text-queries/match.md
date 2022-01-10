@@ -47,10 +47,10 @@ GET /_search
 
 **operator**
 
-| 合法值 | 说明&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |
-|:-------|:-------------------------------------------------------------------------------|
-| OR     | **默认值**，例如查询值为`capital of Hungary`被解释为`capital OR of OR Hungary` |
-| AND    | 例如查询值为`capital of Hungary`被解释为`capital AND of AND Hungary`           |
+| 合法值 | 说明 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|:-------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OR     | **默认值**，例如查询值为`capital of Hungary`被解释为`capital OR of OR Hungary`                                                                                 |
+| AND    | 例如查询值为`capital of Hungary`被解释为`capital AND of AND Hungary`                                                                                           |
 
 
 
