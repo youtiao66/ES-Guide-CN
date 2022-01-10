@@ -8,6 +8,8 @@
 
 ## Query DSL
 * [查询表达式](14-query-dsl/index.md)
+* [词级查询](14-query-dsl/full-text-queries.md)
+  * [Exists 存在查询](14-query-dsl/03-full-text-queries/match.md)
 * [词级查询](14-query-dsl/term-level-queries.md)
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
   * [Range 范围查询](14-query-dsl/10-term-level-queries/range.md)
