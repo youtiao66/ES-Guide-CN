@@ -30,7 +30,7 @@ GET /_search
 
 默认情况下，多个精确值查询最高限制 65,536 个。可以通过 [`index.max_terms_count`][max_terms_count] 配置修改该限制
 
-> 💬**说明：** 想要通过已经存在文档字段值作为搜索词组，请使用 [terms lookup][terms-lookup] 参数
+> 💬**说明：** 想要通过已经存在文档字段值作为搜索词组，请使用[多个精确值查询表][terms-lookup]参数
 
 
 
@@ -166,7 +166,7 @@ GET my-index-000001/_search?pretty
 ```
 
 [max_terms_count]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/index-modules.html#index-max-terms-count
-[terms-lookup]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-dsl-terms-query.html#query-dsl-terms-lookup
+[terms-lookup]: https://youtiao66.gitbook.io/es-guide-cn/query-dsl/term-level-queries/terms#duo-ge-jing-que-zhi-cha-xun-biao
 [relevance-scores]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-filter-context.html#relevance-scores
 [highlighting]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/highlighting.html
 [id-field]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/mapping-id-field.html
