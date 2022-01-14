@@ -14,4 +14,5 @@
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
   * [Range 范围查询](14-query-dsl/10-term-level-queries/range.md)
   * [Term 精确值查询](14-query-dsl/10-term-level-queries/term.md)
+  * [Terms 多个精确值查询](14-query-dsl/10-term-level-queries/terms.md)
   * [Wildcard 通配符查询](14-query-dsl/10-term-level-queries/wildcard.md)
