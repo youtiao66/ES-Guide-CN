@@ -164,7 +164,6 @@ GET /_search
 
 该示例将匹配词语`ny`或者连词`new AND york`. `auto_generate_synonyms_phrase_query`参数默认值为`true`
 
-that matches documents with the term ny or the conjunction new AND york. By default the parameter auto_generate_synonyms_phrase_query is set to true.
 
 
 [近义词]: https://youtiao66.gitbook.io/es-guide-cn/query-dsl/full-text-queries/match#jin-yi-ci
