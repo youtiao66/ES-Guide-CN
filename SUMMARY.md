@@ -10,7 +10,7 @@
 * [查询表达式](14-query-dsl/index.md)
 * [全文查询](14-query-dsl/full-text-queries.md)
   * [Match 匹配查询](14-query-dsl/03-full-text-queries/match.md)
-  * [Match 匹配查询](14-query-dsl/03-full-text-queries/match-phrase.md)
+  * [Match phrase 短语匹配](14-query-dsl/03-full-text-queries/match-phrase.md)
 * [词级查询](14-query-dsl/term-level-queries.md)
   * [Exists 存在查询](14-query-dsl/10-term-level-queries/exists.md)
   * [Range 范围查询](14-query-dsl/10-term-level-queries/range.md)
