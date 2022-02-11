@@ -38,4 +38,13 @@ POST _search
 }
 ```
 
+## `minimum_should_match`
+可以使用`minimum_should_match`参数指定`should`语句返回文档必须匹配的数量或百分比
 
+如果布尔查询至少包含一个`should`语句并且没有`must`和`filter`语句，默认值是`1`，否则默认值是`0`
+
+其他可用值，参考[`minimum_should_match`参数][minimum_should_match]
+
+
+
+[minimum_should_match]: [https://www.elastic.co/guide/en/elasticsearch/reference/7.15/query-dsl-minimum-should-match.html]
