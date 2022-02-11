@@ -1,4 +1,4 @@
-# Terms 多值聚合
+# Terms 多值聚合(TODO:)
 基于词项的多值聚合，根据库中的文档动态构建桶，会对一个一个的词项进行聚合
 
 例如：
@@ -42,7 +42,7 @@ GET /_search
 }
 ```
 
-1. `doc_count_error_upper_bound` - an upper bound of the error on the document counts for each term. see [below][below]
+1. `doc_count_error_upper_bound` - 每个词项的文档计数错误的上限。参考[文档计数错误][doc-count-error]
 2. `sum_other_doc_count` - 当存在很多唯一词项时，仅返回排名前列的词项。该数字是响应之外所有桶的文档计数总和
 3. `buckets` - 排名靠前的桶列表，通过 [order][order] 定义排名顺序
 
@@ -88,7 +88,7 @@ GET /_search
 
 
 
-[below]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/search-aggregations-bucket-terms-aggregation.html#terms-agg-doc-count-error
+[doc-count-error]: https://youtiao66.gitbook.io/es-guide-cn/aggregations/bucket/terms-aggregation#wen-dang-ji-shu-cuo-wu
 [order]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/search-aggregations-bucket-terms-aggregation.html#search-aggregations-bucket-terms-aggregation-order
 [Keyword]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/keyword.html
 [Numeric]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/number.html
