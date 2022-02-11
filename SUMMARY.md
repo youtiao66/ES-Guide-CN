@@ -8,6 +8,8 @@
 
 ## Query DSL
 * [查询表达式](14-query-dsl/index.md)
+* [组合查询](14-query-dsl/compound-queries.md)
+  * [Boolean 布尔查询](14-query-dsl/02-compound-queries/bool.md)
 * [全文查询](14-query-dsl/full-text-queries.md)
   * [Match 匹配查询](14-query-dsl/03-full-text-queries/match.md)
   * [Match phrase 短语匹配](14-query-dsl/03-full-text-queries/match-phrase.md)
