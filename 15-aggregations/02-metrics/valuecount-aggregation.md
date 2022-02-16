@@ -55,10 +55,12 @@ POST /sales/_search
 }
 ```
 
-## 柱状图字段
-如果值计数聚合用于计算 [histogram fields](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/histogram.html)，计算结果就是所有柱状图计数数组的数字总和
+## 条形图字段
+如果值计数聚合用于计算 [histogram fields](https://www.elastic.co/guide/en/elasticsearch/reference/7.15/histogram.html)
 
-例如，以下索引用于存储已经聚合好不同网络延迟指标的柱状图
+计算结果就是所有条形图计数数组的数字总和
+
+例如，以下索引用于存储已经聚合好不同网络延迟指标的条形图
 
 ```json
 PUT metrics_index/_doc/1
@@ -89,7 +91,7 @@ POST /metrics_index/_search?size=0
 }
 ```
 
-每个柱状图字段的值计数聚合都将把所有数组中的值求和。最终，将对所有柱状图的值求和并返回以下结果：
+每个条形图字段的值计数聚合都将把所有计数数组中的值相加。最终，将对所有条形图的值相加并返回以下结果：
 
 ```json
 {
