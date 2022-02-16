@@ -6,6 +6,10 @@
 * 安装
   * [Windows 通过`.zip`安装](04-setup/01-install-elasticsearch/zip-windows.md)
 
+## Search your data
+* [搜索数据](13-search-your-data/index.md)
+* [搜索结果排序](13-search-your-data/sort-search-results.md)
+
 ## Query DSL
 * [查询表达式](14-query-dsl/index.md)
 * [组合查询](14-query-dsl/compound-queries.md)
