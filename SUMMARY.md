@@ -27,3 +27,4 @@
   * [多值聚合](15-aggregations/01-bucket/terms-aggregation.md)
 * [指标聚合](15-aggregations/metrics.md)
   * [基数聚合](15-aggregations/02-metrics/cardinality-aggregation.md)
+  * [值计数聚合](15-aggregations/02-metrics/valuecount-aggregation.md)
