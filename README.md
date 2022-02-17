@@ -1,4 +1,4 @@
-# Elasticsearch 使用指南 [7.15] 中文版
+# Elasticsearch 使用指南 中文版 [7.15]
 
 一直没找到 Elasticsearch 使用指南 中文版，那就我自己来翻译 Elasticsearch Guide [7.15]
 
