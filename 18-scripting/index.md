@@ -15,7 +15,6 @@ Painless 是为 Elasticsearch 设计的，是灵活性的，也可以在脚本 A
 
 
 
-
 [painless]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/modules-scripting-painless.html
 [expression]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/modules-scripting-expression.html
 [mustache]: https://www.elastic.co/guide/en/elasticsearch/reference/7.15/search-template.html

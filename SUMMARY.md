@@ -35,3 +35,4 @@
 
 ## Scripting
 * [脚本](18-scripting/index.md)
+* [Painless 脚本语言](18-scripting/painless.md)
