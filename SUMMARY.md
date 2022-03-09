@@ -6,6 +6,10 @@
 * 安装
   * [Windows 通过`.zip`安装](04-setup/01-install-elasticsearch/zip-windows.md)
 * [启动 Elasticsearch](04-setup/starting-elasticsearch.md)
+* [核心概念](04-setup/core-concept.md)
+
+## Mapping
+* [映射](07-mapping/index.md)
 
 ## Search your data
 * [搜索数据](13-search-your-data/index.md)
