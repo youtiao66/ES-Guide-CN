@@ -49,3 +49,6 @@
   * [创建索引](30-rest-apis/14-indices/create-index.md)
   * [删除索引](30-rest-apis/14-indices/delete-index.md)
   * [查询索引](30-rest-apis/14-indices/get-index.md)
+  * [是否存在](30-rest-apis/14-indices/exists.md)
+  * [关闭索引](30-rest-apis/14-indices/close.md)
+  * [打开索引](30-rest-apis/14-indices/open.md)
