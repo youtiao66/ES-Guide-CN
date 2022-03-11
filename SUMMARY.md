@@ -43,3 +43,9 @@
 * [脚本](18-scripting/index.md)
 * [Painless 脚本语言](18-scripting/painless.md)
 * [如何编写脚本](18-scripting/using.md)
+
+## REST APIs
+* [索引 APIs](30-rest-apis/indices.md)
+  * [创建索引](30-rest-apis/14-indices/create-index.md)
+  * [删除索引](30-rest-apis/14-indices/delete-index.md)
+  * [查询索引](30-rest-apis/14-indices/get-index.md)
