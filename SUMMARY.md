@@ -53,3 +53,6 @@
   * [关闭索引](30-rest-apis/14-indices/close.md)
   * [打开索引](30-rest-apis/14-indices/open.md)
   * [更新映射](30-rest-apis/14-indices/put-mapping.md)
+* [索引 APIs](30-rest-apis/search.md)
+  * [搜索接口](30-rest-apis/28-search/search-search.md)
+
