@@ -33,6 +33,8 @@
 ## Aggregations
 * [聚合](15-aggregations/index.md)
 * [桶聚合](15-aggregations/bucket.md)
+  * [筛选聚合](15-aggregations/01-bucket/filter-aggregation.md)
+  * [多筛选聚合](15-aggregations/01-bucket/filters-aggregation.md)
   * [多值聚合](15-aggregations/01-bucket/terms-aggregation.md)
 * [指标聚合](15-aggregations/metrics.md)
   * [基数聚合](15-aggregations/02-metrics/cardinality-aggregation.md)
